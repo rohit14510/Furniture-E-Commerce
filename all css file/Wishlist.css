@@ -1,0 +1,10 @@
+.tableborde{
+    border: 1px solid #DDDDDD;
+    padding: 5px;
+
+}
+.tableborde:hover{
+    border: 1px solid #B18B5E;
+
+
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="stylemedia.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+   <!-- A grey horizontal navbar that becomes vertical on small screens -->
+   <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <div class="container-fluid" >
+      <div class="container-fluid row p-0">
+        <div class="col-5 col-lg-2 ">
+          <img class="img-fluid p-1" src="logo.svg" alt="">
+        </div>
+        <div class="col-lg-7 collapse navbar-collapse">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link " data-bs-toggle="dropdown" href="shop.html" role="button" aria-expanded="false">Shop</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="shop.html">Product</a></li>
+                <li><a class="dropdown-item" href="Product_Details.html">Product Details</a></li>
+                <li><a class="dropdown-item" href="Wishlist.html">Wishlist</a></li>
+                <li><a class="dropdown-item" href="Cart.html">Cart</a></li>
+                <li><a class="dropdown-item" href="Checkout.html">Checkout</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages.html">Pages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-7 col-lg-3 d-flex justify-content-end ">
+          <ul class="nav d-flex justify-content-evenly">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Wishlist.html"><i class="fa-regular fa-heart"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            </li>
+            <li class="nav-item">
+              <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bars"></i></button>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">ADDINA</h5>
+    <a href="account.html" target="_blank"><h6>Account</h6></a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body ">
+    <ul class="navbar-nav d-block pe-3">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="shop.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Shop
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="shop.html">Product</a></li>
+          <li><a class="dropdown-item" href="Product_Details.html">Product Details</a></li>
+          <li><a class="dropdown-item" href="Wishlist.html">Wishlist</a></li>
+          <li><a class="dropdown-item" href="Cart.html">Cart</a></li>
+          <li><a class="dropdown-item" href="Checkout.html">Checkout</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pages.html">Pages</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="blog.html">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Contact.html">Contact us</a>
+      </li>
+    </ul>
+  </div>
+</div>
+            </li>
+        </div>
+      </div>
+
+    </div>
+    </nav>
+     <!--End of navbaar-->
+    <!--Start Checkout Image Container-->
+    <div class="container-fluid">
+      <div class="container-fluid row mt-lg-0 aboutus ">
+        <div class="container row">
+          <h1 class="text-capitalize text-white p-0 m-0 About d-flex justify-content-center align-items-center">Page Not Found</h1>
+          
+        </div>
+      </div>
+        </div>
+    </div>
+    <!--End Checkout Image Container-->
+
+    <!--Start error Container-->
+    <div class="container-fluid">
+        <DIV class="Container" style="margin: 7REM 0REM;">
+        <div class="container d-flex justify-content-center">
+            <img class="errorimg" src="error.png" alt="">
+        </div>
+        <div class="d-flex justify-content-center">
+            <h1 class="fs-1 text-center mt-4 me-2">Whoops! This Page got <br> Lost in converstion</h1>
+        </div>
+        <div class="d-flex justify-content-center">
+            <a href="index.html" class="btn Couponsection p-3 fs-6" tabindex="-1" role="button" aria-disabled="true">GO BACK HOME></a>
+
+        </div>
+        </DIV>
+    </div>
+
+    <!--End Error Container-->
+
+
+     <!--Start Footer Container-->
+     <div class="container-fluid footer">
+      <div class="container-fluid row p-4">
+        <div class="container-fluid col-lg-3 col-sm-12">
+          <img src="logo-light.svg" alt="">
+          <p class="ithelp pt-4 fs-6">It helps designers plan out where the content will sit, the content to be written and approved.</p>
+          <ul class="socialicon d-flex p-0">
+            <li class="ms-3"><i class="fa-brands fa-facebook"></i></li>
+            <li class="ms-3"><i class="fa-brands fa-twitter"></i></li>
+            <li class="ms-3"><i class="fa-brands fa-linkedin-in"></i></li>
+            <li class="ms-3"><i class="fa-brands fa-instagram"></i></li>
+          </ul>
+        </div>
+        <div class="container-fluid col-lg-3 col-sm-12">
+          <h4 class="text-capitalize fw-bold text-white">services</h4>
+          <ul class=" text-capitalize servicelist p-0">
+            <li> <a class="navbar-brand" href="Login.html" target="_blank">Log In</a></li>
+            <li><a class="navbar-brand" href="Wishlist.html">wishlist</a></li>
+            <li><a class="navbar-brand" href="order.html" target="_blank">My Order</a></li>
+            <li><a class="navbar-brand" href="Pagenot_found.html">return policy</a></li>
+            <li><a class="navbar-brand" href="privacypolicy.html" target="_blank">privacy policy</a></li>
+            <li><a class="navbar-brand" href="ordersucess.html" target="_blank">Order Succesful</a><span>\</span><a class="navbar-brand" href="orderfailed.html" target="_blank"> Order Failed</a></li>
+            <li><a class="navbar-brand" href="#">shopping faqs</a></li>
+          </ul>
+        </div>
+        <div class="container-fluid col-lg-3 col-sm-12">
+          <h4 class="text-capitalize fw-bold text-white">Company</h4>
+          <ul class=" text-capitalize servicelist p-0">
+            <li> <a class="navbar-brand" href="index.html">Home</a></li>
+            <li> <a class="navbar-brand" href="about.html">About us</a></li>
+            <li> <a class="navbar-brand" href="pages.html">pages</a></li>
+            <li> <a class="navbar-brand" href="blog.html">blog</a></li>
+            <li> <a class="navbar-brand" href="Contact.html">contact us</a></li>
+          </ul>
+        </div>
+        <div class="container-fluid col-lg-3 col-sm-12">
+          <h4 class="text-capitalize fw-bold text-white">Company</h4>
+          <p class="washington">4517 washington ave. <br>manchester, kentucky 39495</p>
+          <ul class="locationlist">
+            <li class="locationicon"><i class="fa-solid fa-location-dot"></i></li>
+            <li class="ms-4"><a class="navbar-brand" href="loction.html" target="_blank">711-2880 Nulla st.</a></li>
+          </ul>
+          <ul class="locationlist">
+            <li class="locationicon"><i class="fa-solid fa-phone"></i></li>
+            <li class="ms-4"><a class="navbar-brand" href="#">+96474244763</a></li>
+          </ul>
+          <p class="timing">Mon - Sat 9 AM - 5 PM</p>
+        </div>
+      </div>
+      <hr class="footerline">
+      <div class="container-fluid row d-flex justify-content-center">
+        <div class="container-fluid col-lg-4 col-sm-12">
+          <ul class="copyright d-flex text-capitalize text-white justify-content-center">
+            <li><i class="fa-regular fa-copyright"></i></li>
+            <li>all copyright 2024 by addina</li>
+          </ul>
+        </div>
+        <div class="container-fluid col-lg-4 col-sm-12  ">
+          <ul class="d-flex justify-content-evenly paymentlist ">
+            <li><img src="payoneer.png" alt=""></li>
+            <li class=""><img src="maser.png" alt=""></li>
+            <li class=""><img src="paypal.png" alt=""></li>
+          </ul>
+        </div>
+        <div class="container-fluid col-lg-4 col-sm-12">
+          <p class="text-capitalize fs-6 d-flex justify-content-end "><a class="navbar-brand text-white privacypolic" href="terms&condition.html" target="_blank">terms & condition </a><a class="navbar-brand text-white" href="">| </a> <a class="navbar-brand text-white" href="privacypolicy.html" target="_blank">privacy policy</a></p>
+        </div>
+      </div>
+    </div>
+     <!--End Footer Container-->
+
+    </body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </html>
+  

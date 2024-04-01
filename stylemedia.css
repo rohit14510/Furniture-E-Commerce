@@ -1,0 +1,114 @@
+@media screen and (max-width: 334px) {
+    .btnview{
+        margin-top: 10px;
+
+    }
+}
+@media screen and ( max-width:991px){
+    .get15{
+        margin-top: 20px;
+    }
+    
+}
+@media screen and ( max-width:766px){
+    .hotdealbgimg {
+        width: 22rem;
+        height: 22rem;
+    }
+    
+}
+@media screen and ( max-width:766px){
+    .Bestseller1 {
+        margin-top: 20px;
+    }
+    
+}
+
+@media screen and ( min-width:766px){
+    .imgsize {
+        width: 100%;
+        height: auto;
+    }
+    
+}
+@media screen and ( min-width:766px){
+    .cardcontainer {
+        width: 15rem;
+        height: auto;
+    }
+    
+}
+@media screen and ( max-width:766px){
+    .cardcontainer {
+        width: 25rem;
+        height: auto;
+        margin-top: 2rem;
+    }
+    
+}
+@media screen and ( max-width:766px){
+    .gmapcontainer {
+        width: 22rem;
+        height: auto;
+        
+    }
+    
+}
+@media screen and ( max-width:766px){
+    .textareapara {
+        width: 14rem;
+        height: auto;
+        padding: 2rem;
+        
+    }
+    
+}
+@media screen and ( max-width:766px){
+    .hovericon {
+        top: 309px;
+        left: 5rem;
+      
+        
+    }
+    
+}
+@media screen and ( max-width:766px){
+    .errorimg {
+        width: 20rem;
+        height: auto;
+        
+    }
+    
+}
+@media screen and ( max-width:766px){
+    .imagesection {
+        display: flex;
+        
+    }
+    
+}
+@media screen and ( max-width:766px){
+    .imagesection img {
+        margin: 3px;
+        border: 1px solid #CFCFCF;
+        border-radius: 0.5rem;
+        width: 5rem;
+    
+        
+    }
+    
+}
+@media screen and ( max-width:766px){
+    .imagesection1 {
+        width: 23rem;
+        
+    }
+    
+}
+@media screen and ( max-width:766px){
+    .Heythere {
+        height: 15rem;
+        
+    }
+    
+}

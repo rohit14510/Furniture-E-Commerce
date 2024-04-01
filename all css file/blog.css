@@ -1,0 +1,113 @@
+.blogcontainer{
+    background-color: #f6f6f6;
+}
+.imgpara{
+    color: #808080;
+}
+.backimg{
+    background-image: url('postbox-02.jpg');
+    background-size: cover;
+    width: auto;
+   height: 25rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 1.5rem;
+
+}
+.playbutton{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+
+}
+.playbutton:hover{
+    background-color: #B18B5E;
+    color: white;
+}
+.texthover:hover{
+    color:#B18B5E;
+}
+.blogcontainer h5,p{
+    color: #808080;
+}
+.blogcontainer h5:hover{
+    color: #B18B5E;
+}
+.hover-effect {
+    position: relative;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    
+}
+
+.hover-effect::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color:#B18B5E;
+    transition: width 0.3s ease;
+
+}
+
+.hover-effect:hover::before {
+    width: 21%;
+   margin-left: 1.5rem;
+}
+.searchcon{
+    background-color: #f6f6f6;
+}
+.blogsection{
+    background-color: white;
+}
+.blogsection i{
+    font-size: 6px;
+}
+.blogsection h6:hover{
+    color: #B18B5E;
+}
+.blogpara p{
+    padding:2px;
+    border: 1px solid #cec8c8;
+    border-radius: 6px;
+}
+.blogpara p:hover{
+    color: #B18B5E;
+}
+.jansize{
+    font-size: 0.7rem;
+}
+.imgpara{
+    color: black;
+}
+.imgpara:hover{
+    color: #B18B5E;
+}
+
+.recentimg {
+    overflow: hidden;
+
+  }
+  
+  .recentimg img {
+    transition: transform 0.3s ease;
+  }
+  
+  .recentimg:hover img {
+    transform: scale(1.1);
+  }
+  .tagpara{
+    border: 1px solid #E0E0E0;
+    padding: 3px;
+  }
+  .tagpara:hover{
+    color: white;
+    background-color: #B18B5E;
+    border: none;
+  }

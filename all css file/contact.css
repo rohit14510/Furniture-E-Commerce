@@ -1,0 +1,39 @@
+.headericon{
+    list-style-type: none;
+}
+.locat li{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.locice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: #B18B5E;
+    color: white;
+}
+.locat{
+    box-shadow: 1px 1px 90px 1px #888888;
+    padding: 1rem;
+}
+.formsection{
+    background-color: #B18B5E;
+    margin-bottom: 4rem;
+
+}
+.sendbtn{
+    background-color: #B18B5E;
+   
+}
+.hover-effect {
+    position: relative;
+    transition: top 0.3s ease;
+}
+
+.hover-effect:hover {
+    top: 10px; /* Adjust as needed */
+}

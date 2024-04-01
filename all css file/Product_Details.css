@@ -1,0 +1,88 @@
+.imagesection img{
+    margin: 3px;
+    border: 1px solid #CFCFCF;
+    border-radius: 0.5rem;
+}
+.imagesection1{
+    width: 25rem;
+}
+.Construction{
+    color: white;
+    background-color: #EB753B;
+    padding: 10px;
+    border-radius: 10px;
+}
+.starlist1{
+    list-style-type: none;
+    color:#B18B5E;
+}
+.crossprice{
+    color:#CFCFCF;
+}
+.originalprice{
+    color: #B18B5E;
+}
+.cartbtn ul{
+    list-style-type: none;
+    border: 1px solid #DDDDDD;
+    border-radius: 2rem;
+    padding: 0px;
+    padding: 1.3rem;
+}
+.cartbtn ul li{
+    color: #B18B5E;
+}
+.addbtn button{
+    padding: 1.3rem;
+    background-color: #B18B5E;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    margin: 0px 2rem;
+    
+}
+.wishlistbtn{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 1px solid #CFCFCF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wishlistbtn i{
+    font-size: 2rem;
+    color: #CFCFCF;
+}
+.wishlistbtn i:hover{
+    color: white;
+}
+.wishlistbtn:hover{
+    background-color: #B18B5E;
+
+}
+.iconlist{
+    list-style-type: none;
+    padding: 0%;
+    
+}
+.iconlist1{
+    margin: 0px 1rem;
+}
+.Description h6{
+    display: flex;
+    align-items: center;
+    color: #CFCFCF;
+    background-color:white;
+    padding-left: 1rem;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: 1px solid #CFCFCF;
+    margin-top: 1rem;
+}
+.Description h6:hover{
+    color: white;
+    background-color: #B18B5E;
+ 
+}

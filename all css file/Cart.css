@@ -1,0 +1,14 @@
+.Couponsection{
+    border-radius: 5rem;
+    color: white;
+    background-color: #B18B5E;
+    border: none;
+}
+.Couponcode{
+    border: 1px solid #DDDDDD;
+}
+.carttable{
+    list-style-type: none;
+    padding: 0px;
+    padding: 0.3rem;
+}

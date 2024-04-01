@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="stylemedia.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+   <!-- A grey horizontal navbar that becomes vertical on small screens -->
+   <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <div class="container-fluid" >
+      <div class="container-fluid row p-0">
+        <div class="col-5 col-lg-2 ">
+          <img class="img-fluid p-1" src="logo.svg" alt="">
+        </div>
+        <div class="col-lg-7 collapse navbar-collapse">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link " data-bs-toggle="dropdown" href="shop.html" role="button" aria-expanded="false">Shop</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="shop.html">Product</a></li>
+                <li><a class="dropdown-item" href="Product_Details.html">Product Details</a></li>
+                <li><a class="dropdown-item" href="Wishlist.html">Wishlist</a></li>
+                <li><a class="dropdown-item" href="Cart.html">Cart</a></li>
+                <li><a class="dropdown-item" href="Checkout.html">Checkout</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages.html">Pages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-7 col-lg-3 d-flex justify-content-end ">
+          <ul class="nav d-flex justify-content-evenly">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Wishlist.html"><i class="fa-regular fa-heart"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            </li>
+            <li class="nav-item">
+              <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bars"></i></button>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">ADDINA</h5>
+    <a href="account.html" target="_blank"><h6>Account</h6></a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body ">
+    <ul class="navbar-nav d-block pe-3">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="shop.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Shop
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="shop.html">Product</a></li>
+          <li><a class="dropdown-item" href="Product_Details.html">Product Details</a></li>
+          <li><a class="dropdown-item" href="Wishlist.html">Wishlist</a></li>
+          <li><a class="dropdown-item" href="Cart.html">Cart</a></li>
+          <li><a class="dropdown-item" href="Checkout.html">Checkout</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pages.html">Pages</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="blog.html">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Contact.html">Contact us</a>
+      </li>
+    </ul>
+  </div>
+</div>
+            </li>
+        </div>
+      </div>
+
+    </div>
+    </nav>
+     <!--End of navbaar-->
+    <!--Start Shop Image Container-->
+    <div class="container-fluid">
+      <div class="container-fluid row mt-lg-0 aboutus ">
+        <div class="container row">
+          <h1 class="text-capitalize text-white p-0 m-0 About d-flex justify-content-center align-items-center">Product</h1>
+          
+        </div>
+      </div>
+        </div>
+    </div>
+    <!--End Shop Image Container-->
+
+    <!--Start List Container-->
+    <div class="container-fluid">
+        <div class="container-fluid row mt-4">
+            <div class="col-lg-6 col-12">
+                <h4 class="text-capitalize">20 items on list</h4>
+            </div>
+            <div class="col-lg-6 col-12 d-flex justify-content-lg-end">
+                <ul class="d-flex filter">
+                    <li><i class="fa-solid fa-list"></i></li>
+                    <li class="text-uppercase fw-bold">filter</li>
+                </ul>
+                <ul class="filter d-flex">
+                    <li class="">|</li>
+                <li class="ms-4">
+                  <select>
+                    <option value="option1">Show 20</option>
+                    <option value="option2">This Past Week</option>
+                    <option value="option3">This Past Month</option>
+                    <option value="option3">This Past Year</option>
+                    <option value="option3">All Time</option>
+                  </select>
+                  </li>
+                  <li class="ms-4"><i class="fa-solid fa-grip"></i></li>
+                  <li><i class="fa-solid fa-bars"></i></li>
+                  </ul>
+                  
+            </div>
+        </div>
+    </div>
+     <!--End List Container-->
+     <!--Start Card-1 Container-->
+     <div class="container-fluid">
+        <div class="container-fluid row mt-4 mb-4 d-flex justify-content-between">
+     <div class="card cardcontainer image-container " >
+        <div class="d-flex justify-content-start">
+            <p class="text-white paraoff p-1">10%Off</p>
+            </div>
+    
+        <img src="product1.webp" class="card-img-top bg-white img-fluid mt-2 " alt="...">
+        <div class="container23">
+          <ul class="hovericon">
+            <li><i class="fa-solid fa-cart-shopping"></i></li>
+            <li><i class="fa-solid fa-eye"></i></li>
+            <li><i class="fa-solid fa-heart"></i></li>
+          </ul>
+         </div>
+        <hr class="width">
+        <div class="card-body">
+          <h6 class="card-title text-uppercase accessories">accessories</h6>
+          <h4 class="card-text text-capitalize">Alexander sofa</h4>
+          <div class="d-flex align-items-baseline">
+          <p class="text-decoration-line-through">$15.00</p>
+          <p class="fw-bold fs-5 price">$12.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="card cardcontainer image-container " >
+        <div class="d-flex justify-content-start">
+            <p class="text-white paraoff p-1">10%Off</p>
+            </div>
+        <img src="product2.webp" class="card-img-top bg-white mt-2" alt="...">
+        <div class="container23">
+          <ul class="hovericon">
+            <li><i class="fa-solid fa-cart-shopping"></i></li>
+            <li><i class="fa-solid fa-eye"></i></li>
+            <li><i class="fa-solid fa-heart"></i></li>
+          </ul>
+         </div>
+        <hr class="width">
+        <div class="card-body">
+          <h6 class="card-title text-uppercase accessories">pharma product</h6>
+          <h4 class="card-text text-capitalize">chair pillow</h4>
+          <div class="d-flex align-items-baseline">
+          <p class="text-decoration-line-through">$20.00</p>
+          <p class="fw-bold fs-5 price">$34.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="card cardcontainer image-container " >
+        <div class="d-flex justify-content-start">
+            <p class="text-white paraoff p-1">10%Off</p>
+            </div>
+        <img src="product3.webp" class="card-img-top bg-white mt-2" alt="...">
+        <div class="container23">
+          <ul class="hovericon">
+            <li><i class="fa-solid fa-cart-shopping"></i></li>
+            <li><i class="fa-solid fa-eye"></i></li>
+            <li><i class="fa-solid fa-heart"></i></li>
+          </ul>
+         </div>
+        <hr class="width">
+        <div class="card-body">
+          <h6 class="card-title text-uppercase accessories">skin product</h6>
+          <h4 class="card-text text-capitalize">curaskin lipgel</h4>
+          <div class="d-flex align-items-baseline">
+          <p class="text-decoration-line-through">$12.00</p>
+          <p class="fw-bold fs-5 price">$8.50</p>
+          </div>
+        </div>
+      </div>
+      <div class="card cardcontainer image-container " >
+        <div class="d-flex justify-content-start">
+            <p class="text-white paraoff p-1">10%Off</p>
+            </div>
+        <img src="product4.webp" class="card-img-top bg-white mt-2" alt="...">
+        <div class="container23">
+          <ul class="hovericon">
+            <li><i class="fa-solid fa-cart-shopping"></i></li>
+            <li><i class="fa-solid fa-eye"></i></li>
+            <li><i class="fa-solid fa-heart"></i></li>
+          </ul>
+         </div>
+        <hr class="width">
+        <div class="card-body">
+          <h6 class="card-title text-uppercase accessories">accessories</h6>
+          <h4 class="card-text text-capitalize">Leather chair</h4>
+          <div class="d-flex align-items-baseline">
+          <p class="text-decoration-line-through">$80.00</p>
+          <p class="fw-bold fs-5 price">$66.00</p>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+
+
+     <!--End Card-1 Container-->
+         <!--Start Card-2 Container-->
+         <div class="container-fluid">
+            <div class="container-fluid row mt-4 mb-4 d-flex justify-content-between">
+          <div class="card cardcontainer image-container " >
+            <div class="d-flex justify-content-start">
+                <p class="text-white paraoff p-1">10%Off</p>
+                </div>
+            <img src="product5.webp" class="card-img-top bg-white mt-2" alt="...">
+            <div class="container23">
+              <ul class="hovericon">
+                <li><i class="fa-solid fa-cart-shopping"></i></li>
+                <li><i class="fa-solid fa-eye"></i></li>
+                <li><i class="fa-solid fa-heart"></i></li>
+              </ul>
+             </div>
+            <hr class="width">
+            <div class="card-body">
+              <h6 class="card-title text-uppercase accessories">accessories</h6>
+              <h4 class="card-text text-capitalize">Alexander sofa</h4>
+              <div class="d-flex align-items-baseline">
+              <p class="text-decoration-line-through">$15.00</p>
+              <p class="fw-bold fs-5 price">$12.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="card cardcontainer image-container " >
+            <div class="d-flex justify-content-start">
+                <p class="text-white paraoff p-1">10%Off</p>
+                </div>
+            <img src="product6.webp" class="card-img-top bg-white mt-2" alt="...">
+            <div class="container23">
+              <ul class="hovericon">
+                <li><i class="fa-solid fa-cart-shopping"></i></li>
+                <li><i class="fa-solid fa-eye"></i></li>
+                <li><i class="fa-solid fa-heart"></i></li>
+              </ul>
+             </div>
+            <hr class="width">
+            <div class="card-body">
+              <h6 class="card-title text-uppercase accessories">pharma product</h6>
+              <h4 class="card-text text-capitalize">chair pillow</h4>
+              <div class="d-flex align-items-baseline">
+              <p class="text-decoration-line-through">$20.00</p>
+              <p class="fw-bold fs-5 price">$34.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="card cardcontainer image-container " >
+            <div class="d-flex justify-content-start">
+                <p class="text-white paraoff p-1">10%Off</p>
+                </div>
+            <img src="product7.webp" class="card-img-top bg-white mt-2" alt="...">
+            <div class="container23">
+              <ul class="hovericon">
+                <li><i class="fa-solid fa-cart-shopping"></i></li>
+                <li><i class="fa-solid fa-eye"></i></li>
+                <li><i class="fa-solid fa-heart"></i></li>
+              </ul>
+             </div>
+            <hr class="width">
+            <div class="card-body">
+              <h6 class="card-title text-uppercase accessories">skin product</h6>
+              <h4 class="card-text text-capitalize">curaskin lipgel</h4>
+              <div class="d-flex align-items-baseline">
+              <p class="text-decoration-line-through">$12.00</p>
+              <p class="fw-bold fs-5 price">$8.50</p>
+              </div>
+            </div>
+          </div>
+          <div class="card cardcontainer image-container " >
+            <div class="d-flex justify-content-start">
+                <p class="text-white paraoff p-1">10%Off</p>
+                </div>
+            <img src="product8.webp" class="card-img-top bg-white mt-2" alt="...">
+            <div class="container23">
+              <ul class="hovericon">
+                <li><i class="fa-solid fa-cart-shopping"></i></li>
+                <li><i class="fa-solid fa-eye"></i></li>
+                <li><i class="fa-solid fa-heart"></i></li>
+              </ul>
+             </div>
+            <hr class="width">
+            <div class="card-body">
+              <h6 class="card-title text-uppercase accessories">accessories</h6>
+              <h4 class="card-text text-capitalize">Leather chair</h4>
+              <div class="d-flex align-items-baseline">
+              <p class="text-decoration-line-through">$80.00</p>
+              <p class="fw-bold fs-5 price">$66.00</p>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+    
+    
+         <!--End Card-2 Container-->
+         <!--Start Button Container-->
+         <div class="container-fluid">
+            <div class="container d-flex justify-content-center mb-4">
+                <button class=" slidebtn fw-bold">1</button>
+                <button class="slidebtn1 fw-bold">2</button>
+                <button class="slidebtn1 fw-bold">3</button>
+                <button class="slidebtn1 fw-bold"><i class="fa-solid fa-greater-than"></i></button>
+            </div>
+         </div>
+         <!--End Button Container-->
+
+        
+     <!--Start Footer Container-->
+    <div class="container-fluid footer">
+      <div class="container-fluid row p-4">
+        <div class="container-fluid col-lg-3 col-sm-12">
+          <img src="logo-light.svg" alt="">
+          <p class="ithelp pt-4 fs-6">It helps designers plan out where the content will sit, the content to be written and approved.</p>
+          <ul class="socialicon d-flex p-0">
+            <li class="ms-3"><i class="fa-brands fa-facebook"></i></li>
+            <li class="ms-3"><i class="fa-brands fa-twitter"></i></li>
+            <li class="ms-3"><i class="fa-brands fa-linkedin-in"></i></li>
+            <li class="ms-3"><i class="fa-brands fa-instagram"></i></li>
+          </ul>
+        </div>
+        <div class="container-fluid col-lg-3 col-sm-12">
+          <h4 class="text-capitalize fw-bold text-white">services</h4>
+          <ul class=" text-capitalize servicelist p-0">
+            <li> <a class="navbar-brand" href="Login.html" target="_blank">Log In</a></li>
+            <li><a class="navbar-brand" href="Wishlist.html">wishlist</a></li>
+            <li><a class="navbar-brand" href="order.html" target="_blank">My Order</a></li>
+            <li><a class="navbar-brand" href="Pagenot_found.html">return policy</a></li>
+            <li><a class="navbar-brand" href="privacypolicy.html" target="_blank">privacy policy</a></li>
+            <li><a class="navbar-brand" href="ordersucess.html" target="_blank">Order Succesful</a><span>\</span><a class="navbar-brand" href="orderfailed.html" target="_blank"> Order Failed</a></li>
+            <li><a class="navbar-brand" href="#">shopping faqs</a></li>
+          </ul>
+        </div>
+        <div class="container-fluid col-lg-3 col-sm-12">
+          <h4 class="text-capitalize fw-bold text-white">Company</h4>
+          <ul class=" text-capitalize servicelist p-0">
+            <li> <a class="navbar-brand" href="index.html">Home</a></li>
+            <li> <a class="navbar-brand" href="about.html">About us</a></li>
+            <li> <a class="navbar-brand" href="pages.html">pages</a></li>
+            <li> <a class="navbar-brand" href="blog.html">blog</a></li>
+            <li> <a class="navbar-brand" href="Contact.html">contact us</a></li>
+          </ul>
+        </div>
+        <div class="container-fluid col-lg-3 col-sm-12">
+          <h4 class="text-capitalize fw-bold text-white">Company</h4>
+          <p class="washington">4517 washington ave. <br>manchester, kentucky 39495</p>
+          <ul class="locationlist">
+            <li class="locationicon"><i class="fa-solid fa-location-dot"></i></li>
+            <li class="ms-4"><a class="navbar-brand" href="loction.html" target="_blank">711-2880 Nulla st.</a></li>
+          </ul>
+          <ul class="locationlist">
+            <li class="locationicon"><i class="fa-solid fa-phone"></i></li>
+            <li class="ms-4"><a class="navbar-brand" href="#">+96474244763</a></li>
+          </ul>
+          <p class="timing">Mon - Sat 9 AM - 5 PM</p>
+        </div>
+      </div>
+      <hr class="footerline">
+      <div class="container-fluid row d-flex justify-content-center">
+        <div class="container-fluid col-lg-4 col-sm-12">
+          <ul class="copyright d-flex text-capitalize text-white justify-content-center">
+            <li><i class="fa-regular fa-copyright"></i></li>
+            <li>all copyright 2024 by addina</li>
+          </ul>
+        </div>
+        <div class="container-fluid col-lg-4 col-sm-12  ">
+          <ul class="d-flex justify-content-evenly paymentlist ">
+            <li><img src="payoneer.webp" alt=""></li>
+            <li class=""><img src="maser.webp" alt=""></li>
+            <li class=""><img src="paypal.webp" alt=""></li>
+          </ul>
+        </div>
+        <div class="container-fluid col-lg-4 col-sm-12">
+          <p class="text-capitalize fs-6 d-flex justify-content-end "><a class="navbar-brand text-white privacypolic" href="terms&condition.html" target="_blank">terms & condition </a><a class="navbar-brand text-white" href="">| </a> <a class="navbar-brand text-white" href="privacypolicy.html" target="_blank">privacy policy</a></p>
+        </div>
+      </div>
+    </div>
+     <!--End Footer Container-->
+
+
+      
+    </body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </html>
+  

@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="stylemedia.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+   
+  </head>
+  <body>
+   <!-- A grey horizontal navbar that becomes vertical on small screens -->
+   <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <div class="container-fluid" >
+      <div class="container-fluid row p-0">
+        <div class="col-5 col-lg-2 ">
+          <img class="img-fluid p-1" src="logo.svg" alt="">
+        </div>
+        <div class="col-lg-7 collapse navbar-collapse">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link " data-bs-toggle="dropdown" href="shop.html" role="button" aria-expanded="false">Shop</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="shop.html">Product</a></li>
+                <li><a class="dropdown-item" href="Product_Details.html">Product Details</a></li>
+                <li><a class="dropdown-item" href="Wishlist.html">Wishlist</a></li>
+                <li><a class="dropdown-item" href="Cart.html">Cart</a></li>
+                <li><a class="dropdown-item" href="Checkout.html">Checkout</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages.html">Pages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-7 col-lg-3 d-flex justify-content-end ">
+          <ul class="nav d-flex justify-content-evenly">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Wishlist.html"><i class="fa-regular fa-heart"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            </li>
+            <li class="nav-item">
+              <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bars"></i></button>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">ADDINA</h5>
+    <a href="account.html" target="_blank"><h6>Account</h6></a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body ">
+    <ul class="navbar-nav d-block pe-3">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="shop.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Shop
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="shop.html">Product</a></li>
+          <li><a class="dropdown-item" href="Product_Details.html">Product Details</a></li>
+          <li><a class="dropdown-item" href="Wishlist.html">Wishlist</a></li>
+          <li><a class="dropdown-item" href="Cart.html">Cart</a></li>
+          <li><a class="dropdown-item" href="Checkout.html">Checkout</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pages.html">Pages</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="blog.html">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Contact.html">Contact us</a>
+      </li>
+    </ul>
+  </div>
+</div>
+            </li>
+        </div>
+      </div>
+
+    </div>
+    </nav>
+     <!--End of navbaar-->
+    <!---Start the new arrival container-->
+    <div class="container-fluid">
+    <div class="container-fluid firstcontainer row g-2">
+      <div class="col-lg-6 col-md-12 p-4">
+        <p class="text-uppercase newarrial fw-bold">new arrival...</p>
+        <h2 class="text-capitalize fw-bold fs-1">
+          elevate <br />
+          your home <br />aesthetics
+        </h2>
+        <p class="afurniture">
+          A furniture e-commerce company operates in the digital <br />
+          space,offering a wide range of furniture products for sale
+          <br />through an online platform
+        </p>
+        <button type="button" class="btn btnbuy ms-0">BUY NOW ></button>
+        <button type="button" class="btn btnview  ms-sm-4 ms-0 ">
+          VIEW DETAILS >
+        </button>
+      </div>
+      <div class="col-lg-6 col-md-12 imgcircule">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="details-04.webp" style="width: 1rem;" class="d-block w-100" alt="..."/>
+            </div>
+            <div class="carousel-item">
+              <img src="chair2.webp" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="chair3.webp" class="d-block w-100" alt="..."/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+     <!---END the new arrival container-->
+
+     <!---Start the Privacy container-->
+    <div class="container-fluid">
+    <div class="container row d-flex justify-content-center p-4 privacy">
+      <div class="col-lg-3 col-sm-6 freedel d-flex justify-content-lg-center ">
+        <div>
+          <h2 class="fw-bold">Free delivery</h2>
+          <p>Free shipping on all <br />order</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 d-flex justify-content-lg-center">
+        <div>
+          <h2 class="fw-bold">Money Return</h2>
+          <p>Back guarantee under 7 <br />day</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 d-flex justify-content-lg-center">
+        <div>
+          <h2 class="fw-bold">Online Support 24/7</h2>
+          <p>Support online 24 hours<br />a day</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 d-flex justify-content-lg-center">
+        <div>
+          <h2 class="fw-bold">Reliable</h2>
+          <p>Trusted by 1000+ brands</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!---End the Privacy container-->
+    <!--Start Discount Card Container-->
+    <div class="container-fluid">
+    <div class="container-fluid row p-4">
+      <div class="container  col-md-12 col-lg-5 get30 ">
+        <div class="p-4 col-md-6">
+          <p class="text-uppercase">get 30% off</p>
+          <h2 class="text-capitalize fw-bold">wicker hanging chairs</h2>
+          <button type="button" class="btnbuy mt-2 ms-0">BUY NOW ></button>
+        </div>
+        <div class="ps-0 m-0 col-md-6 d-flex justify-content-center align-items-center">
+          <img class="img-fluid" src="product2.webp" alt="" />
+        </div>
+      </div>
+      <div class="container  col-md-12 col-lg-5 get15 ">
+        <div class="p-4 col-md-6">
+          <p class="text-uppercase">get 15% off</p>
+          <h2 class="text-capitalize fw-bold">Brasslegged <br>Armchair</h2>
+          <button type="button" class="btnbuy mt-2 ms-0">BUY NOW ></button>
+        </div>
+        <div class="ps-0 m-0 col-md-6 d-flex justify-content-center align-items-center">
+          <img class="img-fluid" src="product2.webp" alt="" />
+        </div>
+      </div>
+     
+    </div>
+    </div>
+    <!-- End Discount Card Container-->
+
+
+    <!--Start Top Sale Container-->
+    <div class="container-fluid">
+      <div class="container-fluid row mt-4">
+        <div class="container-fluid d-flex justify-content-center">
+        <p class="text-uppercase fw-bold  sale">top sale</p>
+      </div>
+      </div>
+      <div class="container-fluid row">
+        <h2 class="text-capitalize text-center">featured product</h2>
+      </div>
+      <div class="container-fluid row">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner ">
+            <div class="carousel-item active row  d-flex justify-content-between ">
+                <div
+                  class="container-fluid col-lg-3 col-12 card border-0"
+                  style="width: 13rem"
+                >
+                  <img src="product7.webp" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h6 class="text-capitalize fw-bold">Alexander roll arm sofa</h6>
+                    <ul class="d-flex starlist">
+                      <li><i class="fa-regular fa-star"></i></li>
+                      <li><i class="fa-regular fa-star"></i></li>
+                      <li><i class="fa-regular fa-star"></i></li>
+                      <li><i class="fa-regular fa-star"></i></li>
+                      <li><i class="fa-regular fa-star"></i></li>
+                    </ul>
+                    <p class="fw-bold usdpra">USD 150.00</p>
+                  </div>
+                </div>
+                <div class="card border-0 container-fluid" style="width: 13rem">
+                  <img src="product5.webp" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h6 class="text-capitalize fw-bold">Brasslegged Armchair</h6>
+                    <ul class="d-flex starlist">
+                      <li><i class="fa-regular fa-star"></i></li>
+                      <li><i class="fa-regular fa-star"></i></li>
+                      <li><i class="fa-regular fa-star"></i></li>
+                      <li><i class="fa-regular fa-star"></i></li>
+                      <li><i class="fa-regular fa-star"></i></li>
+                    </ul>
+                    <p class="fw-bold usdpra">USD 150.00</p>
+                  </div>
+                </div>
+                <div class="card border-0 container-fluid" style="width: 13rem">
+                  <img src="product3.webp" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h6 class="text-capitalize fw-bold">Leather Chair</h6>
+                    <ul class="d-flex starlist">
+                      <li><i class="fa-regular fa-star"></i></li>
+                      <li><i class="fa-regular fa-star"></i></li>
+                      <li><i class="fa-regular fa-star"></i></li>
+                      <li><i class="fa-regular fa-star"></i></li>
+                      <li><i class="fa-regular fa-star"></i></li>
+                    </ul>
+                    <p class="fw-bold usdpra">USD 200.00</p>
+                  </div>
+                </div>
+                <div class="card border-0 container-fluid" style="width: 13rem">
+                  <img src="product1.webp" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h6 class="text-capitalize fw-bold">Chair Pillow</h6>
+                    <ul class="d-flex starlist">
+                      <li><i class="fa-regular fa-star"></i></li>
+                      <li><i class="fa-regular fa-star"></i></li>
+                      <li><i class="fa-regular fa-star"></i></li>
+                      <li><i class="fa-regular fa-star"></i></li>
+                      <li><i class="fa-regular fa-star"></i></li>
+                    </ul>
+                    <p class="fw-bold usdpra">USD 49.00</p>
+                  </div>
+                </div>
+            
+            </div>
+            <div class="carousel-item  row  d-flex justify-content-between ">
+              <div
+                class="container-fluid col-lg-3 col-12 card border-0"
+                style="width: 13rem"
+              >
+                <img src="product8.webp" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h6 class="text-capitalize fw-bold">Alexander roll arm sofa</h6>
+                  <ul class="d-flex starlist">
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                  </ul>
+                  <p class="fw-bold usdpra">USD 150.00</p>
+                </div>
+              </div>
+              <div class="card border-0 container-fluid" style="width: 13rem">
+                <img src="product6.webp" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h6 class="text-capitalize fw-bold">Brasslegged Armchair</h6>
+                  <ul class="d-flex starlist">
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                  </ul>
+                  <p class="fw-bold usdpra">USD 150.00</p>
+                </div>
+              </div>
+              <div class="card border-0 container-fluid" style="width: 13rem">
+                <img src="product2.webp" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h6 class="text-capitalize fw-bold">Leather Chair</h6>
+                  <ul class="d-flex starlist">
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                  </ul>
+                  <p class="fw-bold usdpra">USD 200.00</p>
+                </div>
+              </div>
+              <div class="card border-0 container-fluid" style="width: 13rem">
+                <img src="product4.webp" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h6 class="text-capitalize fw-bold">Chair Pillow</h6>
+                  <ul class="d-flex starlist">
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                  </ul>
+                  <p class="fw-bold usdpra">USD 49.00</p>
+                </div>
+              </div>
+          
+          </div>
+          <div class="carousel-item  row  d-flex justify-content-between ">
+            <div
+              class="container-fluid col-lg-3 col-12 card border-0"
+              style="width: 13rem"
+            >
+              <img src="product8.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h6 class="text-capitalize fw-bold">Alexander roll arm sofa</h6>
+                <ul class="d-flex starlist">
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                </ul>
+                <p class="fw-bold usdpra">USD 150.00</p>
+              </div>
+            </div>
+            <div class="card border-0 container-fluid" style="width: 13rem">
+              <img src="product7.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h6 class="text-capitalize fw-bold">Brasslegged Armchair</h6>
+                <ul class="d-flex starlist">
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                </ul>
+                <p class="fw-bold usdpra">USD 150.00</p>
+              </div>
+            </div>
+            <div class="card border-0 container-fluid" style="width: 13rem">
+              <img src="product6.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h6 class="text-capitalize fw-bold">Leather Chair</h6>
+                <ul class="d-flex starlist">
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                </ul>
+                <p class="fw-bold usdpra">USD 200.00</p>
+              </div>
+            </div>
+            <div class="card border-0 container-fluid" style="width: 13rem">
+              <img src="product5.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h6 class="text-capitalize fw-bold">Chair Pillow</h6>
+                <ul class="d-flex starlist">
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                </ul>
+                <p class="fw-bold usdpra">USD 49.00</p>
+              </div>
+            </div>
+        
+        </div>
+        
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="container-fluid col-lg-3 col-12"></div>
+        <div class="container-fluid col-lg-3 col-12"></div>
+        <div class="container-fluid col-lg-3 col-12"></div>
+      </div>
+    </div>
+    <!--End Top Sale Container-->
+
+    <!--Start Hot Deal furniture Container-->
+    <div class="container-fluid">
+      <div class="container-fluid row">
+        <div class="container col-lg-6 col-12 hotdeal">
+          <div class="container hotdeal1">
+            <div class="container hotdeal2">
+              <p class="text-uppercase mt-4">hot deal furniture</p>
+              <h2 class="text-capitalize fw-bold">
+                live furniture <br />your love
+              </h2>
+              <button type="button" class="btnbuynow fw-bold ms-0 mt-2">BUY NOW ></button>
+            </div>
+          </div>
+        </div>
+        <div class="container col-lg-6 col-12 mt-4 mt-lg-0">
+          <img class="hotdealbgimg" src="bg-image.webp" alt=""/>
+        </div>
+      </div>
+      </div>
+       <!--End Hot Deal furniture Container-->
+
+
+       <!--Start Monthly Collection Container-->
+       <div class="container-fluid">
+      <div class="container-fluid row">
+        <div class="col-lg-3 col-md-12 p-4">
+          <p class="text-uppercase fw-bold thismonth ">this month</p>
+          <h2 class="text-capitalize fw-bold fs-2">trendy collection</h2>
+        </div>
+        <div class="col-lg-9 col-md-12 d-flex align-items-end justify-content-end">
+          <ul class="nav nav-tabs border-0 collectionlist">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">All Collections</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">New In</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Top Rated</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Tensing Items</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+      <div class="container-fluid row d-flex justify-content-evenly mt-4">
+        <div
+          class="container-fluid col-lg-3 col-6 card border-0">
+          <img src="product1.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h6 class="text-capitalize fw-bold">Alexander roll arm sofa</h6>
+            <ul class="d-flex starlist">
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+            </ul>
+            <p class="fw-bold usdpra">USD 150.00</p>
+          </div>
+        </div>
+        <div
+        class="container-fluid col-lg-3 col-6 card border-0">
+          <img src="product2.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h6 class="text-capitalize fw-bold">Brasslegged Armchair</h6>
+            <ul class="d-flex starlist">
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+            </ul>
+            <p class="fw-bold usdpra">USD 150.00</p>
+          </div>
+        </div>
+        <div
+          class="container-fluid col-lg-3 col-6 card border-0">
+          <img src="product3.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h6 class="text-capitalize fw-bold">Leather Chair</h6>
+            <ul class="d-flex starlist">
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+            </ul>
+            <p class="fw-bold usdpra">USD 200.00</p>
+          </div>
+        </div>
+        <div
+          class="container-fluid col-lg-3 col-6 card border-0">
+          <img src="product4.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h6 class="text-capitalize fw-bold">Chair Pillow</h6>
+            <ul class="d-flex starlist">
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+            </ul>
+            <p class="fw-bold usdpra">USD 49.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid row d-flex justify-content-evenly">
+        <div
+          class="container-fluid col-lg-3 col-6 card border-0">
+          <img src="product5.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h6 class="text-capitalize fw-bold">Alexander sofa</h6>
+            <ul class="d-flex starlist">
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+            </ul>
+            <p class="fw-bold usdpra">USD 150.00</p>
+          </div>
+        </div>
+        <div
+        class="container-fluid col-lg-3 col-6 card border-0">
+          <img src="product6.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h6 class="text-capitalize fw-bold">Stylish Grey Chair</h6>
+            <ul class="d-flex starlist">
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+            </ul>
+            <p class="fw-bold usdpra">USD 150.00</p>
+          </div>
+        </div>
+        <div
+          class="container-fluid col-lg-3 col-6 card border-0">
+          <img src="product7.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h6 class="text-capitalize fw-bold">Chair Nobody Armchair</h6>
+            <ul class="d-flex starlist">
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+            </ul>
+            <p class="fw-bold usdpra">USD 80.00</p>
+          </div>
+        </div>
+        <div
+          class="container-fluid col-lg-3 col-6 card border-0">
+          <img src="product8.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h6 class="text-capitalize fw-bold">Realistic Sofa</h6>
+            <ul class="d-flex starlist">
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+            </ul>
+            <p class="fw-bold usdpra">USD 49.00</p>
+          </div>
+        </div>
+      </div>
+      <!--End Monthly Collection Container-->
+
+      <!--Start Hot deal Furniture Container-->
+     <div class="container-fluid">
+      <div class="container-fluid row d-flex justify-content-evenly">
+        <div class="container col-lg-6 col-12 backgroundimg ">
+          
+          <div class="container  p-4 ">
+            <p class="text-uppercase d-flex align-items-center fw-bold text-white">hot deal furniture</p>
+            <h3 class="text-capitalize d-flex align-items-center text-white">furniture limit offer 30% off</h3>
+            <button type="button" class=" text-uppercase fw-bold  dealbtn">Buy Now ></button>
+          </div>
+        </div>
+        <div class="container  col-lg-6 col-12 mt-4 mt-lg-0 backgroundimg ">
+          <div class="container row  p-4 ">
+            <p class="text-uppercase fw-bold d-flex justify-content-center text-white">hot deal furniture</p>
+            <h3 class="text-capitalize d-flex justify-content-center text-white">furniture limit offer 30% off</h3>
+            <div class="d-flex justify-content-center">
+            <button type="button" class=" text-uppercase fw-bold  dealbtn1">Buy Now ></button>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+
+       <!--End Hot deal Furniture Container-->
+
+      <!--Start Client Feedback  Container-->
+      <div class="container-fluid feedbackcont">
+        <div class="container-fluid row ">
+          <div class=" d-flex justify-content-center">
+          <p class="text-uppercase fw-bold mt-4 testimoials ">testimoials</p>
+          </div>
+          <h2 class="text-center text-capitalize m=0 p=0">client feedback</h2>
+        </div>
+        <div class="container-fluid row mt-4">
+         
+        <div
+          id="carouselExampleControls "
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item d-flex justify-content-evenly active">
+              <div class="container-fluid col-lg-4 col-12 ">
+              <div class="card container">
+                <div class="card-body">
+                  <ul class="d-flex starlist">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                  </ul>
+                  <h5 class="card-title">Ralph Edwards</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">UI/UX Designer</h6>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+              </div>
+              <div class="container-fluid col-lg-4 col-12">
+              <div class="card container">
+                <div class="card-body">
+                  <ul class="d-flex starlist">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                  </ul>
+                  <h5 class="card-title">Jerome Bell</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Web Designer</h6>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+              </div>
+              <div class="container-fluid col-lg-4 col-12">
+              <div class="card container">
+                <div class="card-body">
+                  <ul class="d-flex starlist">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                  </ul>
+                  <h5 class="card-title">Annette Black</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Dog Trainer</h6>
+                  <p class="card-text text-wrap ">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div
+            class="container-fluid row  d-flex justify-content-center  mt-4 buttonarrow">
+            <button class="m-4" type="button">
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <button class="m-4" type="button">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--End Client Feedback  Container-->
+
+      <!--Start  Best Seller  Container-->
+      <div class="container-fluid">
+      <div class="container-fluid row ms-2 ms-lg-0">
+        <div class="container-fluid mt-4 ">
+          <div class="d-flex">
+          <p class="text-uppercase fw-bold thisweek">this week</p>
+          </div>
+          <h2 class="text-capitalize fs-2">best sellers</h2>
+        </div>
+          <div class="Bestseller container-fluid  row ">
+            <div class="Bestseller1 col-lg-3 col-12 col-md-6">
+              <div class="container col-6 p-0 ">
+                <img class="imgsize img-fluid" src="product7.webp" alt="" />
+              </div>
+              <div class="container col-6 p-0 ms-2">
+                <h2>Stylish Chair</h2>
+                <p>USD 66.00</p>
+                <ul class="unli">
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                </ul>
+              </div>
+            </div>
+            <div class="Bestseller1 col-lg-3 col-12 col-md-6">
+              <div class="container col-6 p-0 ">
+                <img class="imgsize img-fluid" src="product6.webp" alt="" />
+              </div>
+              <div class="container col-6 p-0 ms-2">
+                <h2>Chair Pillow</h2>
+                <p>USD 66.00</p>
+                <ul class="unli">
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                </ul>
+              </div>
+            </div>
+            <div class="Bestseller1 col-lg-3 col-12 col-md-6  ">
+              <div class="container col-6 p-0 ">
+                <img class="imgsize img-fluid" src="product5.webp" alt="" />
+              </div>
+              <div class="container col-6 p-0 ms-2">
+                <h2>Alexander Roll</h2>
+                <p>USD 66.00</p>
+                <ul class="unli">
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="Bestseller  container-fluid row  ms-2 ms-lg-0 mt-lg-4">
+          <div class="Bestseller1 col-lg-3 col-12 col-md-6">
+            <div class="container col-6 p-0 ">
+              <img class="imgsize img-fluid" src="product8.webp" alt="">
+              </div>
+              <div class="container col-6 p-0 ms-2">
+              <h2>Wooden Chair</h2>
+              <p>USD 66.00</p>
+              <ul class="unli">
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+              </ul>
+          </div>
+          </div>
+          <div class="Bestseller1 col-lg-3 col-12 col-md-6">
+            <div class="container col-6 p-0 ">
+                  <img class="imgsize img-fluid" src="product4.webp" alt="">
+                  </div>
+                  <div class="container col-6  p-0 ms-2">
+                  <h2>Chair Pillow</h2>
+                  <p>USD 66.00</p>
+                  <ul class="unli">
+                      <li><i class="fa-regular fa-star"></i></li>
+                      <li><i class="fa-regular fa-star"></i></li>
+                      <li><i class="fa-regular fa-star"></i></li>
+                      <li><i class="fa-regular fa-star"></i></li>
+                      <li><i class="fa-regular fa-star"></i></li>
+                  </ul>
+              </div>
+              </div>
+              <div class="Bestseller1 col-lg-3 col-12 col-md-6">
+                <div class="container col-6 p-0 ">
+                      <img class="imgsize img-fluid" src="product1.webp" alt="">
+                      </div>
+                      <div class="container col-6  p-0 ms-2">
+                      <h2>Stylish Grey <br>Chair</h2>
+                      <p>USD 66.00</p>
+                      <ul class="unli">
+                          <li><i class="fa-regular fa-star"></i></li>
+                          <li><i class="fa-regular fa-star"></i></li>
+                          <li><i class="fa-regular fa-star"></i></li>
+                          <li><i class="fa-regular fa-star"></i></li>
+                          <li><i class="fa-regular fa-star"></i></li>
+                      </ul>
+                  </div>
+                </div>
+          </div>
+      </div>
+    </div>
+  </div>
+    <!--End  Best Seller  Container-->
+
+
+    <!--Start  Read Blog  Container-->
+    <div class="container-fluid">
+    <div class="container-fluid row readblog mt-4">
+      <div class="container-fluid row text-center mt-4">
+        <div class="d-flex justify-content-center">
+        <p class="text-uppercase fw-bold readblogp">read blog</p>
+        </div>
+        <h2 class="text-capitalize">recent blog</h2>
+      </div>
+      <div class="container-fluid row d-flex justify-content-evenly mt-4 mb-4">
+        <div class="container-fluid row d-flex chairfirst p-4 col-lg-5 col-12">
+          <div class="container-fluid m-0 p-0 col-12 col-lg-6 ms-2 ms-lg-0">
+            <p class="text-capitalize chairde">Chair design</p>
+            <p class="text-capitalize byalex">By alex  manie 07 jan,2024</p>
+            <h4 class="text-capitalize">arrangement  that's nearly perfect.</h4>
+          </div>
+          <div class="container-fluid col-12 col-lg-6 ">
+            <img class=" blogimg img-fluid" src="blog-image1.webp" alt="">
+          </div>
+        </div>
+        <div class="container-fluid row d-flex chairfirst p-4 col-lg-5 col-12 mt-4 mt-lg-0">
+          <div class="container-fluid ps-0 ms-0 col-12 col-lg-6 ms-2 ms-lg-0">
+            <p class="text-capitalize chairde">Chair design</p>
+            <p class="text-capitalize byalex mt-0 pt-0">By alex  manie 07 jan,2024</p>
+            <h4 class="text-capitalize">arrangement  that's nearly perfect.</h4>
+          </div>
+          <div class="container-fluid col-12 col-lg-6  ">
+            <img class=" blogimg img-fluid" src="blog-image2.webp" alt="">
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!--End  Read Blog  Container-->
+
+
+     <!--Start  Cards   Container-->
+    <div class="container-fluid mt-4">
+      <div class="container-fluid row pt-4 mb-4">
+        <div class="container col-lg-3 col-sm-12   mt-3 exoffer p-3">
+          <h4 class="text-capitalize fw-bold">exclusive offers for you</h4>
+          <p class="getweek">Get weekly deals, valuable health <br>information and more.</p>
+          <button type="button" class="text-uppercase offerbtn">
+            Sing up > 
+          </button>
+        </div>
+        <div class="container col-lg-3 col-sm-12 mt-3  joinour p-3">
+          <h4 class="text-capitalize fw-bold">join our <br>community</h4>
+          <p class="getweek">Get weekly deals, valuable health <br>information and more.</p>
+          <button type="button" class="text-uppercase offerbtn">
+            join free now > 
+          </button>
+        </div>
+        <div class="container col-lg-3 col-sm-12  mt-3 getour p-3" >
+          <h4 class="text-capitalize fw-bold">get our <span>free</span> app <br>now!</h4>
+          <p class="getweek">Get weekly deals, valuable health <br>information and more.</p>
+          <Ul class="d-flex store">
+            <li class=""><img src="play-store.webp" alt=""></li>
+            <li class="ms-2"><img src="apple-store.webp" alt=""></li>
+          </Ul>
+        </div>
+      </div>
+    </div>
+    <!--End Cards   Container-->
+
+    <!--Start Brand logo Container-->
+    <div class="container-fluid pt-4 pb-4">
+      <div class="container-fluid row  mt-4 ">
+          <div class="container-fluid col-12 col-lg-2 d-flex justify-content-center"> <img src="brand-01.webp" alt=""></div>
+          <div class="container-fluid col-12 col-lg-2 d-flex justify-content-center"> <img src="brand-01.webp" alt=""></div>
+          <div class="container-fluid col-12 col-lg-2 d-flex justify-content-center"> <img src="brand-01.webp" alt=""></div>
+          <div class="container-fluid col-12 col-lg-2 d-flex justify-content-center"> <img src="brand-01.webp" alt=""></div>
+          <div class="container-fluid col-12 col-lg-2 d-flex justify-content-center"> <img src="brand-01.webp" alt=""></div>
+        </div>
+      </div>
+    </div>
+     <!--End Brand logo Container-->
+
+     <!--Start Footer Container-->
+    <div class="container-fluid footer">
+      <div class="container-fluid row p-4">
+        <div class="container-fluid col-lg-3 col-sm-12">
+          <img src="logo-light.svg" alt="">
+          <p class="ithelp pt-4 fs-6">It helps designers plan out where the content will sit, the content to be written and approved.</p>
+          <ul class="socialicon d-flex p-0">
+            <li class="ms-3"><i class="fa-brands fa-facebook"></i></li>
+            <li class="ms-3"><i class="fa-brands fa-twitter"></i></li>
+            <li class="ms-3"><i class="fa-brands fa-linkedin-in"></i></li>
+            <li class="ms-3"><i class="fa-brands fa-instagram"></i></li>
+          </ul>
+        </div>
+        <div class="container-fluid col-lg-3 col-sm-12">
+          <h4 class="text-capitalize fw-bold text-white">services</h4>
+          <ul class=" text-capitalize servicelist p-0">
+            <li> <a class="navbar-brand" href="Login.html" target="_blank">Log In</a></li>
+            <li><a class="navbar-brand" href="Wishlist.html">wishlist</a></li>
+            <li><a class="navbar-brand" href="order.html" target="_blank">My Order</a></li>
+            <li><a class="navbar-brand" href="Pagenot_found.html">return policy</a></li>
+            <li><a class="navbar-brand" href="privacypolicy.html" target="_blank">privacy policy</a></li>
+            <li><a class="navbar-brand" href="ordersucess.html" target="_blank">Order Succesful</a><span>\</span><a class="navbar-brand" href="orderfailed.html" target="_blank"> Order Failed</a></li>
+            <li><a class="navbar-brand" href="#">shopping faqs</a></li>
+          </ul>
+        </div>
+        <div class="container-fluid col-lg-3 col-sm-12">
+          <h4 class="text-capitalize fw-bold text-white">Company</h4>
+          <ul class=" text-capitalize servicelist p-0">
+            <li> <a class="navbar-brand" href="index.html">Home</a></li>
+            <li> <a class="navbar-brand" href="about.html">About us</a></li>
+            <li> <a class="navbar-brand" href="pages.html">pages</a></li>
+            <li> <a class="navbar-brand" href="blog.html">blog</a></li>
+            <li> <a class="navbar-brand" href="Contact.html">contact us</a></li>
+          </ul>
+        </div>
+        <div class="container-fluid col-lg-3 col-sm-12">
+          <h4 class="text-capitalize fw-bold text-white">Company</h4>
+          <p class="washington">4517 washington ave. <br>manchester, kentucky 39495</p>
+          <ul class="locationlist">
+            <li class="locationicon"><i class="fa-solid fa-location-dot"></i></li>
+            <li class="ms-4"><a class="navbar-brand" href="loction.html" target="_blank">711-2880 Nulla st.</a></li>
+          </ul>
+          <ul class="locationlist">
+            <li class="locationicon"><i class="fa-solid fa-phone"></i></li>
+            <li class="ms-4"><a class="navbar-brand" href="#">+96474244763</a></li>
+          </ul>
+          <p class="timing">Mon - Sat 9 AM - 5 PM</p>
+        </div>
+      </div>
+      <hr class="footerline">
+      <div class="container-fluid row d-flex justify-content-center">
+        <div class="container-fluid col-lg-4 col-sm-12">
+          <ul class="copyright d-flex text-capitalize text-white justify-content-center">
+            <li><i class="fa-regular fa-copyright"></i></li>
+            <li>all copyright 2024 by addina</li>
+          </ul>
+        </div>
+        <div class="container-fluid col-lg-4 col-sm-12  ">
+          <ul class="d-flex justify-content-evenly paymentlist ">
+            <li><img src="payoneer.webp" alt=""></li>
+            <li class=""><img src="maser.webp" alt=""></li>
+            <li class=""><img src="paypal.webp" alt=""></li>
+          </ul>
+        </div>
+        <div class="container-fluid col-lg-4 col-sm-12">
+          <p class="text-capitalize fs-6 d-flex justify-content-end "><a class="navbar-brand text-white privacypolic" href="terms&condition.html" target="_blank">terms & condition </a><a class="navbar-brand text-white" href="">| </a> <a class="navbar-brand text-white" href="privacypolicy.html" target="_blank">privacy policy</a></p>
+        </div>
+      </div>
+    </div>
+     <!--End Footer Container-->
+    
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+</html>
